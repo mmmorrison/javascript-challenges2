@@ -22,18 +22,19 @@ module.exports = {
   },
 
   reverseJoin: function(givenArray) {
-    for (var i = 0; i < givenArray.length; i++) {
-      results = givenArray.slice("").reverse().join();
-    }
+    results = givenArray.slice("").reverse().join();
     return results;
   },
 
   reverseJoinCompact: function(givenArray) {
-    for (var i = 0; i < givenArray.length; i++) {
-      results = givenArray.slice().reverse().join('');
-    }
+    results = givenArray.slice().reverse().join('');
     return results;
   },
 
+  backwardsDay: function(str) {
+    return "Hello " + str.split('').reverse().join('');
 
   }
+
+
+}
