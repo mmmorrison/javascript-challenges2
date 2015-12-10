@@ -1,7 +1,9 @@
 module.exports = {
 
   first: function(array) {
-    // fill in code here
+    results = array[0];
+    return results;
   }
 
 }
+x

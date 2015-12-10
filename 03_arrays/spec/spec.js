@@ -6,7 +6,7 @@ describe('first', function() {
     expect(yourCode.first(['foo', 'bar'])).toEqual('foo');
   });
 
-  xit('returns undefined when given an empty Array', function() {
+it('returns undefined when given an empty Array', function() {
     expect(yourCode.first([])).toEqual(undefined);
   });
 });
