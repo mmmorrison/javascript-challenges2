@@ -1,27 +1,22 @@
 module.exports = {
-  sameLength: function(s1, s2) {
-    var results = (s1.length == s2.length) ? true:false;
-    return results;
+
+  sameLength: function (str1, str2) {
+    return (str1.length == str2.length) ? true : false
   },
 
-  firstGreater: function(a1, a2) {
-    var results = (a1 > a2) ? true:false;
-    return results;
+  firstGreater: function (arg1, arg2) {
+    return (arg1 > arg2) ? true : false
   },
 
-  firstGreaterOrEqualTo: function(a1, a2) {
-    var results = (a1 >= a2) ? true:false;
-    return results;
+  firstGreaterOrEqualTo: function (arg1, arg2) {
+    return (arg1 >= arg2) ? true : false
   },
 
-  firstLengthGreater: function (a1, a2) {
-    var results = (a1.length > a2.length) ? true:false;
-    return results;
+  firstLengthGreater: function (arg1, arg2) {
+    return (arg1.length > arg2.length) ? true : false
   },
 
-  secondGreater: function (a1, a2) {
-    var results = (a2 > a1) ? true:false;
-    return results;
-  },
-
-}
+  secondGreater: function (arg1, arg2) {
+    return (arg1 < arg2) ? true: false
+  }
+};
