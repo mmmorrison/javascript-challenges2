@@ -13,11 +13,11 @@ it('returns undefined when given an empty Array', function() {
 
 describe('last', function() {
 
-  xit('returns the last element for a given Array', function() {
+  it('returns the last element for a given Array', function() {
     expect(yourCode.last(['foo', 'monkey', 'bar'])).toEqual('bar');
   });
 
-  xit('returns undefined when given an empty Array', function() {
+  it('returns undefined when given an empty Array', function() {
     expect(yourCode.last([])).toEqual(undefined);
   });
 });

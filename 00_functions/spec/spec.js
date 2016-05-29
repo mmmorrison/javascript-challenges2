@@ -54,11 +54,11 @@ describe("separate", function() {
 
 describe("reverseJoin", function() {
 
-  it("returns the characters of the given array, reversed and joined", function() {
+  xit("returns the characters of the given array, reversed and joined", function() {
     expect(yourCode.reverseJoin(['j', 'u', 'm', 'b', 'o'])).toEqual('o,b,m,u,j');
   });
 
-  it("returns the characters of the given array, reversed and joined", function() {
+  xit("returns the characters of the given array, reversed and joined", function() {
     expect(yourCode.reverseJoin(['f', 'o', 'o', 'b', 'a', 'r'])).toEqual('r,a,b,o,o,f');
   });
 
@@ -66,11 +66,11 @@ describe("reverseJoin", function() {
 
 describe("reverseJoinCompact", function() {
 
-  it("returns the characters of the given array, reversed and joined by nothing", function() {
+  xit("returns the characters of the given array, reversed and joined by nothing", function() {
     expect(yourCode.reverseJoinCompact(['j', 'u', 'm', 'b', 'o'])).toEqual('obmuj');
   });
 
-  it("returns the characters of the given array, reversed and joined by nothing", function() {
+  xit("returns the characters of the given array, reversed and joined by nothing", function() {
     expect(yourCode.reverseJoinCompact(['f', 'o', 'o', 'b', 'a', 'r'])).toEqual('raboof');
   });
 
@@ -78,11 +78,11 @@ describe("reverseJoinCompact", function() {
 
 describe("backwardsDay", function() {
 
-  it("returns Hello plus the string you pass it, reversed", function() {
+  xit("returns Hello plus the string you pass it, reversed", function() {
     expect(yourCode.backwardsDay('Frog')).toEqual("Hello gorF");
   });
 
-  it("returns Hello plus the string you pass it, reversed", function() {
+  xit("returns Hello plus the string you pass it, reversed", function() {
     expect(yourCode.backwardsDay('FraggleRock')).toEqual("Hello kcoRelggarF");
   });
 
