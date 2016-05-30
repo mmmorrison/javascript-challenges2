@@ -24,18 +24,16 @@ module.exports = {
   }
  },
 
- last_n: function(array, n) {
-  if (array.length == 0) {
-   return array
-  } else {
-   if (n < array.length) {
-    var last = array.length - n
-    return array.slice(last, n)
-   }
-  }
- }
-
-
-
+ last_n: function(array, n){
+     if (array.length == 0){
+       return array;
+     }
+     else if(n < array.length){
+      return array.slice(n-1, array.length);
+     }
+     else {
+       return array;
+     }
+   },
 
 }
