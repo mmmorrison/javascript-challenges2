@@ -36,4 +36,28 @@ module.exports = {
      }
    },
 
+  drop: function (array, n) {
+    if (n < array.length) {
+      return array.splice(n, array.length)
+    } else {
+    if (n > array.length) {
+      return []
+      }
+    }
+  },
+
+  union: function (array1, array2) {
+    if (array1.length == 0 && array2.length == 0){
+      return []
+    } else {
+      return array1.concat(array2)
+    }
+  },
+
+  intersection: function (array1, array2) {
+    var same = array1.filter(function(index) {
+      return array2.indexOf(index) > -1
+    })
+      return same
+  }
 }
